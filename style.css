@@ -1,0 +1,72 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Verdana', sans-serif;
+  color:white;
+  text-shadow: 3px 2px red;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+p {
+  margin: auto 125px auto 125px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.button {
+    text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: red;
+  text-shadow: 1px 1px white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+button {
+  border-radius: 12px;
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+
+#myInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: red;
+}

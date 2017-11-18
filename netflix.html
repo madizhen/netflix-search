@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- style -->
+<link rel="stylesheet" href="../netflix-search/style.css">
+</head>
+<body>
+
+<h1>What to watch?</h1>
+<p>The problem with giant libraries is that there can be just too much stuff. It takes time and effort to go and look for something, when you could be spending that precious time consuming whatever product you've been <i>trying</i> to pick from already. This site will simply pick shows for you watch on Netflix. You can use the Pick a Movie Button for grab 'n' go or you can filter with the genre--and nothing else that might make you second guess the selection. 
+
+<!-- Generate randome title -->
+<body>
+  <div class="button">
+  <h3>Anything will do? Click below!</h3>
+  <div id="flixDisplay"></div>
+  <button onclick="genFlix()">Pick a movie</button>
+    <script src="../netflix-search/flixGen.js"></script>
+  </div>
+<!-- End of generator -->
+
+<br></br>
+
+<!-- Search List -->
+<h3>Kinda picky, but not really.</h3>
+<p>The available categories are: </p>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:50%;">Genre</th>
+    <th style="width:50%;">Title</th>
+  </tr>
+  <tr>
+    <td>Action</td>
+    <td>The 100</td>
+  </tr>
+  <tr>
+    <td>Action</td>
+    <td>Black Mirror</td>
+  </tr>
+  <tr>
+    <td>Action</td>
+    <td>Dare Devil</td>
+  </tr>
+  <tr>
+    <td>Action</td>
+    <td>Jessica Hones</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>Civil War</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>Doctor Strange</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>Jaws</a></td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>Pirates of the Carribean: The Curse of the Black Pearl</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>The Punisher</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>Star Wars: Rouge One</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>xXx</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>A Lonely Place to Die</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>Avenged</td>
+  </tr>
+  <tr>
+    <td>Action Movie</td>
+    <td>Bitcon Heist</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>AJIN: Demi-Human</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Attack on Titan</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Castlevania</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Bleach</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Death Note</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Mushi-Shi</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Naruto</a></td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Ouran Host Club</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>Rurouni Kenshin</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>The House of Small Cubes</td>
+  </tr>
+  <tr>
+    <td>Anime</td>
+    <td>You Lie In April</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>A Cinderella Story</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Air Bud</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Dare Devil</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Disney's An Extremely Goofy Movie</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Are We There Yet?</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Beauty and the Beast</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Bee Movie</a></td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Everyone's Hero</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Holes</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Hotel for Dogs</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Racing Stripes</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>The Iron Giant</td>
+  </tr>
+  <tr>
+    <td>Children Movie</td>
+    <td>Zooptopia</td>
+  </tr>
+  <tr>
+    <td>Classics Movie</td>
+    <td>Barefoot in the Park</td>
+  </tr>
+  <tr>
+    <td>Classice Movie</td>
+    <td>Destiny</td>
+  </tr>
+  <tr>
+    <td>Classics Movie</td>
+    <td>Grease</td>
+  </tr>
+  <tr>
+    <td>Classics Movie, Noir</td>
+    <td>Sunset Boulevard</td>
+  </tr>
+  <tr>
+    <td>Classics Movie</td>
+    <td>The Endless Summer</td>
+  </tr>
+  <tr>
+    <td>Classics Movie</td>
+    <td>Three Coins in the Fountain</td>
+  </tr>
+  <tr>
+    <td>Classics Movie</td>
+    <td>To Kill A Mockingbird</td>
+  </tr>
+  <tr>
+    <td>Comedy</td>
+    <td>Family Guy</td>
+  </tr>
+  <tr>
+    <td>Comedy</td>
+    <td>Futurama</td>
+  </tr>
+  <tr>
+    <td>Comedy</td>
+    <td>New Girl</td>
+  </tr>
+    <td>Comedy</td>
+    <td>Parks and Rec</a></td>
+  </tr>
+  <tr>
+    <td>Comedy</td>
+    <td>That 70's Show</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie</td>
+    <td>13 Going on 30</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie[?]</td>
+    <td>Ali Wong Baby Cobra</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie</td>
+    <td>Are You Here</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie</td>
+    <td>GBF</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie</td>
+    <td>Magic Mike</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie</td>
+    <td>Mean Girls</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie</td>
+    <td>John Tucker Must Die</td>
+  </tr>
+  <tr>
+    <td>Comedy Movie</td>
+    <td>Sausage Party</a></td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>#Rucker50</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>9 Months That Made You</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Abstract: The Art of Design</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Auschwitz: The Nazis and The Final Solution</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Burn</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Chasing Perfection</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Code: Debugging the Gender Gap</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Cooked</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Find Me</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Food, Inc.</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Frozen Planet: On Thin Ice</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Great Human Oddesy</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>H.H. Holmes</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Hard Time</a></td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Hip Hop Evolution</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Into the Inferno</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Jesus Camp</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Man on Wire</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Minimalism</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Motivation 2: The Chris Cole Story</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Murder Maps</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Putrage</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Panama Canal: Prized Possession</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Precious Puppies</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Prohibition</a></td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Pumping Iron</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Rise of the Super Gamer</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Sky Ladder: The Art of Cai Guo-Qiang</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Sustainable</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>The Birth of Sake</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>The Pit</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>The Propoganda Game</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>The Secret Rules of Modern Living: Algorithms</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>The Call It Myanmar</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Architecture: Top 10</td>
+  </tr>
+  <tr>
+    <td>Documentary</td>
+    <td>Velcro, the Sloth</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
