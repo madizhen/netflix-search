@@ -21,7 +21,8 @@ var flix = [
   
   //Comedy Movie
   '13 Going on 30', 'Ali Wong Baby Cobra', 'Are You Here', 'GBF', 'Magic Mike', 
-  'Mean Girls', 'John Tucker Must Die', 'Sausage Party', 
+  'Mean Girls', 'John Tucker Must Die', 'Sausage Party', 'Baby Boss', 'Trolls',
+  'Bad Santa 2', 'Talladega Nights',
   
   //Documentary
   '#Rucker50', '9 Months That Made You','Abstract: The Art of Design', 
@@ -34,14 +35,22 @@ var flix = [
   'The Secret Rules of Modern Living: Algorithms', 'They Call It Myanmar', 'Architecture Top 10', 'Velco, the Sloth', 'Bleach', 
   
   //Dramas
+  'Greys Anatomy', 'How to Get Away With Murder', 'Scandal',
   
   //Faith & Spirituality
+  'The Case for Christ', 'Gods Club', 'Full of Grace', 'Im in Love with a Church Girl', 'In the Name of God', 'Joseph and Mary',
+  'Once I Was a Beehive', 'Singing with Angels', 'Son of God', 'The Secret',
   
   //Horror
   
   //Independent
+  'Already Tomorrow in Hong Kong', 'Before We Go', 'Begin Again', 'Chezzy Pop', 'Donnie Darko', 'Drinking Buddies', 'Fruitvale Station', 'The Fundementals of Caring', 
+  'Greenberg', 'Hard Candy', 'Milk', 'Pulp Fiction', 'Sleeping with Other People', 'Win It All',
   
   //International
+  '10 Jours en Or', '1000 Meters', 'A Good Rain Knows', 'A Heavy Heart', 'Aashayein',
+  'All for Love', 'Amores Perrps', 'Amrapali', 'Barking Dogs Never Bite', 'Becoming Zlatan',
+  'Casa Grande', 'Couple of Days', 'Dangal', 'Darra', 'Deewaar', 'Difret'
   
   //LGBTQ
   
