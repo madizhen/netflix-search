@@ -50,9 +50,16 @@ var flix = [
   //International
   '10 Jours en Or', '1000 Meters', 'A Good Rain Knows', 'A Heavy Heart', 'Aashayein',
   'All for Love', 'Amores Perrps', 'Amrapali', 'Barking Dogs Never Bite', 'Becoming Zlatan',
-  'Casa Grande', 'Couple of Days', 'Dangal', 'Darra', 'Deewaar', 'Difret'
+  'Casa Grande', 'Couple of Days', 'Dangal', 'Darra', 'Deewaar', 'Difret',
   
   //LGBTQ
+  '3 Generations', 'A Perfect Wedding', 'All About E', 'Almost Adults', 'Bare', 
+  'Bekow Her Mouth', 'Blue is the Warmest Color', 'Blush', 'Bridegroom', 'Bright Night', 
+  'Chezzy Pop', 'Closet Monster', 'Dream Boat', 'Elena Undore', 'Fire Song', 
+  'From This Day Forward: A Trans Love Story', 'GBF', 'Game Face', 'Gayby Baby', 'Growing Coy',
+   'Holding the Man', 'How Gay is Pakistan?', 'How to Win at Checkers (Every Time)', 'I am Michael', 'Kiss Me', 
+  'Like You Mean It', 'Milk', 'People You May Know', 'Portrait of a Serial Monogamist', 'Summer Time', 
+  'The Way He Looks', 'Viva'
   
   //Music
   
