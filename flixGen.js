@@ -62,6 +62,11 @@ var flix = [
   'The Way He Looks', 'Viva'
   
   //Music
+  'Backstreet Boys: Show Em  What Youre Made Of', 'Bad Rap', 'Biggie & Tupac', 'Bowie: The Man Who Changed the World', 'Chris Brown: Welcome to my Life', 
+  'Dont Stop Believin: Everyday Journey', 'Duran Duran Unstaged', 'Foo Fighters: Back and Forth', 'Gaga: Five Foot Two', 'George Harrison: Livingin the Material World', 
+  'Hip Hopv Evolution', 'I Called Him Morgan', 'Jimi Hendrix: Voodoo Child', 'Keep on Keepin On', 'Los Punks', 
+  'Mariah Carreys Merrieast Christmas', 'MEtalica: Some Kind of Monster', 'Miss Sharon Jones', 'Nat King Cole: Afraid of the Dark', 'Sinatra: To be Frank', 
+  'Springstein & I', 'The End of Malice', 'The Human Factor', 'Tokyo Idols', 'The Twisted F**king Sister!', 
   
   //Musicals
   
