@@ -69,6 +69,8 @@ var flix = [
   'Springstein & I', 'The End of Malice', 'The Human Factor', 'Tokyo Idols', 'The Twisted F**king Sister!', 
   
   //Musicals
+  'Aiyyaa', 'Camp Rock', 'Chicago', 'Country Crush', 'Grease', 
+  'High School Musical', 'Moana', 'Mulan', 'Shrek: The Musical', 'Sing Street'
   
   //Romance
   
@@ -79,11 +81,7 @@ var flix = [
   //Thrillers
   
   /*Easiest way to fill is by copy & pasting this into a section, then double-clicking and typing over
-  'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
-  'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
-  'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
-  'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
-  'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
+  
   'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
   'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
   'Bleach', 'Castlevania', 'Bleach', 'Castlevania', 'Bleach', 
